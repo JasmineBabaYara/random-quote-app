@@ -34,10 +34,12 @@ class App extends React.Component{
 
   render(){
     return(
-      <div>
-        <p className='quote'>{this.state.quote}</p>
-        <p className='author'>--{this.state.author}--</p>
-      </div>
+      
+        <div>
+          <p className='quote'>{this.state.quote}</p>
+          <p className='author'>--{this.state.author}--</p>
+        </div>
+      
     )
   }
 }
